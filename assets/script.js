@@ -25,25 +25,26 @@ containerDiv.setAttribute("class", "container"); // added container class to the
 body.append(containerDiv); // append the main div element to the body
     // div with class of hero for the image
 const heroDiv = document.createElement("div"); // create a div to wrap the hero image
+heroDiv.setAttribute('class', 'hero'); // set class of hero to the hero div
 containerDiv.append(heroDiv); // append the hero div to the main container div
 const imgEl = document.createElement("img"); // create the hero element image
 heroDiv.append(imgEl); // append the new image element to the hero div
+    // div with class of album-content to hold the entire album contents
+const divContent = document.createElement('div'); // create div to wrap album content
+divContent.setAttribute('class', 'album-content'); // add class of album-content to content div
+containerDiv.append(divContent); // append the content div to the main container div 
     // div with class of artist for the main heading
 const artistDiv = document.createElement("div"); // create the the div for the artist heading
 artistDiv.setAttribute("class", "artist"); // add a class of artist for the artistDiv
-containerDiv.append(artistDiv); // append the artist heading to the main container
+divContent.append(artistDiv); // append the artist heading to the main container
     // div with class of album for the album heading
 const albumDiv = document.createElement("div"); // create a div for the album heading
 albumDiv.setAttribute("class", "album"); // add a class to album to the album heading div
-containerDiv.append(albumDiv); // append the album div to the main container div
-    // div with class of track for the album tracks title
-const tracksTitleDiv = document.createElement("div"); // create div to hold the tracks title
-tracksTitleDiv.setAttribute("class", "track-title"); // add class of track-title to the track title div
-containerDiv.append(tracksTitleDiv); // append the track title div to the main container div
+divContent.append(albumDiv); // append the album div to the main container div
     // div with class of track-list for the album tracks
 const trackListDiv = document.createElement("div"); // create div for track list
 trackListDiv.setAttribute("class", "track-list"); // class of track-list for the tracks list
-tracksTitleDiv.append(trackListDiv); // append the track list to track list title
+divContent.append(trackListDiv); // append the track list to track list title
 
 // dynamically add content to the various sections
     // main header div
@@ -57,6 +58,8 @@ headingTwo.innerText = favoriteAlbum.Album; // set the album content from the ob
     // tracks
 const ulEl = document.createElement("ul"); // create unordered list element
 trackListDiv.append(ulEl); // append the unordered list to the tracks list div
+    // the hero image
+imgEl.setAttribute('src', '../assets/images/marcus_cole_2480.jpg');
 
 // TO-DO: a function could actually do this faster (grab the tracks from the object and add them by innerText )
     //track one
