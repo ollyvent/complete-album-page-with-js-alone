@@ -13,6 +13,12 @@ let favoriteAlbum = {
     "Track 8: Persuaded",
     "Track 9: Celebrate",
     "Track 10: You're There",
-    "Track 11: Bless My Soul"
+    "Track 11: Bless My Soul",
   ],
 };
+
+// dynamically create the variables, add classes and append them
+const body = document.body; // create the body variable
+const containerDiv = document.createElement("div"); // create the main div
+containerDiv.setAttribute("class", "container"); // added container class to the main div
+body.append(containerDiv); // append the main div element to the body
