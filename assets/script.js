@@ -31,4 +31,8 @@ containerDiv.append(artistDiv); // append the artist heading to the main contain
 const albumDiv = document.createElement("div"); // create a div for the album heading
 albumDiv.setAttribute("class", "album"); // add a class to album to the album heading div
 containerDiv.append(albumDiv);  // append the album div to the main container div
+    // div with class of track for the album tracks title
+const tracksTitleDiv = document.createElement("div"); // create div to hold the tracks title
+tracksTitleDiv.setAttribute("class", "track-title"); // add class of track-title to the track title div
+containerDiv.append(tracksTitleDiv); // append the track title div to the main container div
     
