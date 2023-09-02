@@ -44,4 +44,8 @@ tracksTitleDiv.append(trackListDiv); // append the track list to track list titl
 // main header div
 const headingOne = document.createElement("h1"); // create h1 element
 artistDiv.append(headingOne); // append the h1 element to the artist div
-headingOne.innerText = favoriteAlbum.Artist;
+headingOne.innerText = favoriteAlbum.Artist; // set the artist content from the object to the h1 element
+// Artist div
+const headingTwo = document.createElement("h2"); // create h2 element
+albumDiv.append(headingTwo); // append the h2 to the album div
+headingTwo.innerText = favoriteAlbum.Album; // set the album content from the object to the h2 element
