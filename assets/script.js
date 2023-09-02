@@ -39,3 +39,9 @@ containerDiv.append(tracksTitleDiv); // append the track title div to the main c
 const trackListDiv = document.createElement("div"); // create div for track list
 trackListDiv.setAttribute("class", "track-list"); // class of track-list for the tracks list
 tracksTitleDiv.append(trackListDiv); // append the track list to track list title
+
+// dynamically add content to the various sections
+// main header div
+const headingOne = document.createElement("h1"); // create h1 element
+artistDiv.append(headingOne); // append the h1 element to the artist div
+headingOne.innerText = favoriteAlbum.Artist;
