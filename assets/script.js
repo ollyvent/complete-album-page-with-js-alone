@@ -23,18 +23,22 @@ const body = document.body; // create the body variable
 const containerDiv = document.createElement("div"); // create the main div
 containerDiv.setAttribute("class", "container"); // added container class to the main div
 body.append(containerDiv); // append the main div element to the body
+
 // div with class of artist for the main heading
 const artistDiv = document.createElement("div"); // create the the div for the artist heading
 artistDiv.setAttribute("class", "artist"); // add a class of artist for the artistDiv
 containerDiv.append(artistDiv); // append the artist heading to the main container
+
 // div with class of album for the album heading
 const albumDiv = document.createElement("div"); // create a div for the album heading
 albumDiv.setAttribute("class", "album"); // add a class to album to the album heading div
 containerDiv.append(albumDiv); // append the album div to the main container div
+
 // div with class of track for the album tracks title
 const tracksTitleDiv = document.createElement("div"); // create div to hold the tracks title
 tracksTitleDiv.setAttribute("class", "track-title"); // add class of track-title to the track title div
 containerDiv.append(tracksTitleDiv); // append the track title div to the main container div
+
 // div with class of track-list for the album tracks
 const trackListDiv = document.createElement("div"); // create div for track list
 trackListDiv.setAttribute("class", "track-list"); // class of track-list for the tracks list
@@ -45,7 +49,12 @@ tracksTitleDiv.append(trackListDiv); // append the track list to track list titl
 const headingOne = document.createElement("h1"); // create h1 element
 artistDiv.append(headingOne); // append the h1 element to the artist div
 headingOne.innerText = favoriteAlbum.Artist; // set the artist content from the object to the h1 element
-// Artist div
+
+// artist div
 const headingTwo = document.createElement("h2"); // create h2 element
 albumDiv.append(headingTwo); // append the h2 to the album div
 headingTwo.innerText = favoriteAlbum.Album; // set the album content from the object to the h2 element
+
+// tracks
+const ulEl = document.createElement("ul"); // create unordered list element
+trackListDiv.append(ulEl); // append the unordered list to the tracks list div
