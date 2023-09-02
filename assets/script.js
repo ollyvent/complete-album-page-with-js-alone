@@ -108,3 +108,8 @@ ulEl.append(trackEleven); // append the track one list element to the unordered 
 trackEleven.innerText = favoriteAlbum.Tracks[10]; // set the track one list item to the track one content inside the object
 
 // Time to style
+body.setAttribute('style', 'margin:0; padding:0'); // add padding 0 and margin 0 to body
+imgEl.setAttribute('style', 'display:flex; width:400px; border:solid 1px gold;') // add width and border-gold to img
+containerDiv.setAttribute('style', 'display:flex; margin: 0 auto') // add display flex to main container
+heroDiv.setAttribute('style','display:flex; justify-content:right; align-items:center; width:50%;');
+divContent.setAttribute('style', 'width:50%')
