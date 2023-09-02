@@ -108,8 +108,9 @@ ulEl.append(trackEleven); // append the track one list element to the unordered 
 trackEleven.innerText = favoriteAlbum.Tracks[10]; // set the track one list item to the track one content inside the object
 
 // Time to style
-body.setAttribute('style', 'margin:0; padding:0'); // add padding 0 and margin 0 to body
-imgEl.setAttribute('style', 'display:flex; width:400px; border:solid 1px gold;') // add width and border-gold to img
-containerDiv.setAttribute('style', 'display:flex; margin: 0 auto') // add display flex to main container
-heroDiv.setAttribute('style','display:flex; justify-content:right; align-items:center; width:50%;');
-divContent.setAttribute('style', 'width:50%')
+body.setAttribute('style', 'background-image:url(../assets/images/codioful-formerly-gradienta-bKESVqfxass-unsplash.jpg); background-size:auto; color:wheat; font-family: cursive'); // add padding 0 and margin 0 to body
+imgEl.setAttribute('style', 'display:flex; width:400px; border:solid 1px gold; margin-right:10px') // add width and border-gold to img
+containerDiv.setAttribute('style', 'padding-top: 10%;display:flex;') // add display flex to main container
+heroDiv.setAttribute('style','display:flex; justify-content:right; align-items:center; width:50%;'); // the album image styling
+divContent.setAttribute('style', 'width:50%; align-items:center; justify-content:left; border-left:solid 1px wheat; padding-left:10px'); //  the album content styling
+ulEl.setAttribute('style', 'list-style:none; padding-left:0'); // styling to the unordered list
