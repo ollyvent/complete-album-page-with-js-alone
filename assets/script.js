@@ -58,3 +58,9 @@ headingTwo.innerText = favoriteAlbum.Album; // set the album content from the ob
 // tracks
 const ulEl = document.createElement("ul"); // create unordered list element
 trackListDiv.append(ulEl); // append the unordered list to the tracks list div
+
+// TO-DO: a function could actually do this faster (grab the tracks from the object and add them by innerText )
+//track one
+const trackOne = document.createElement("li"); // create the track 1 list element
+ulEl.append(trackOne); // append the track one list element to the unordered list
+trackOne.innerText = favoriteAlbum.Tracks[0]; // set the track one list item to the track one content inside the object
