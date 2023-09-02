@@ -1,4 +1,4 @@
-# functional-programming-with-inner-text
+# complete-album-page-with-js-alone
 
 ## Desciption
 inputing album data into a webpage dymanically in javascript
