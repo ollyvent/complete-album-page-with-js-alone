@@ -64,3 +64,53 @@ trackListDiv.append(ulEl); // append the unordered list to the tracks list div
 const trackOne = document.createElement("li"); // create the track 1 list element
 ulEl.append(trackOne); // append the track one list element to the unordered list
 trackOne.innerText = favoriteAlbum.Tracks[0]; // set the track one list item to the track one content inside the object
+
+//track two
+const trackTwo = document.createElement("li"); // create the track 1 list element
+ulEl.append(trackTwo); // append the track one list element to the unordered list
+trackTwo.innerText = favoriteAlbum.Tracks[1]; // set the track one list item to the track one content inside the object
+
+//track Three
+const trackThree = document.createElement("li"); // create the track 1 list element
+ulEl.append(trackThree); // append the track one list element to the unordered list
+trackThree.innerText = favoriteAlbum.Tracks[2]; // set the track one list item to the track one content inside the object
+
+//track Four
+const trackFour = document.createElement("li"); // create the track 1 list element
+ulEl.append(trackFour); // append the track one list element to the unordered list
+trackFour.innerText = favoriteAlbum.Tracks[3]; // set the track one list item to the track one content inside the object
+
+//track Five
+const trackFive = document.createElement("li"); // create the track 1 list element
+ulEl.append(trackFive); // append the track one list element to the unordered list
+trackFive.innerText = favoriteAlbum.Tracks[4]; // set the track one list item to the track one content inside the object
+
+//track Six
+const trackSix = document.createElement("li"); // create the track 1 list element
+ulEl.append(trackSix); // append the track one list element to the unordered list
+trackSix.innerText = favoriteAlbum.Tracks[5]; // set the track one list item to the track one content inside the object
+
+//track Seven
+const trackSeven = document.createElement("li"); // create the track 1 list element
+ulEl.append(trackSeven); // append the track one list element to the unordered list
+trackSeven.innerText = favoriteAlbum.Tracks[6]; // set the track one list item to the track one content inside the object
+
+//track Eight
+const trackEight = document.createElement("li"); // create the track 1 list element
+ulEl.append(trackEight); // append the track one list element to the unordered list
+trackEight.innerText = favoriteAlbum.Tracks[7]; // set the track one list item to the track one content inside the object
+
+//track Nine
+const trackNine = document.createElement("li"); // create the track 1 list element
+ulEl.append(trackNine); // append the track one list element to the unordered list
+trackNine.innerText = favoriteAlbum.Tracks[8]; // set the track one list item to the track one content inside the object
+
+//track Ten
+const trackTen = document.createElement("li"); // create the track 1 list element
+ulEl.append(trackTen); // append the track one list element to the unordered list
+trackTen.innerText = favoriteAlbum.Tracks[9]; // set the track one list item to the track one content inside the object
+
+//track Eleven
+const trackEleven = document.createElement("li"); // create the track 1 list element
+ulEl.append(trackEleven); // append the track one list element to the unordered list
+trackEleven.innerText = favoriteAlbum.Tracks[10]; // set the track one list item to the track one content inside the object
