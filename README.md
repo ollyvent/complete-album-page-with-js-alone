@@ -21,6 +21,6 @@ javascript, vscode
     ** Github:          https://github.com/ollyvent/complete-album-page-with-js-alone
     ** deployed site:   https://ollyvent.github.io/complete-album-page-with-js-alone/
 
-## image from live-server
-    "../assets/images/liveserver_preview.png"
-    ![Alt text](liveserver_preview.png)
+## image from live-server    
+    ![alt text](./assets/images/liveserver_preview.png)
+    assets/images/liveserver_preview.png
