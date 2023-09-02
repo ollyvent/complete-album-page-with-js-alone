@@ -1,4 +1,4 @@
-# functional-programming-with-inner-text
+# complete-album-page-with-js-alone
 
 ## Desciption
 
@@ -7,6 +7,7 @@ creating and album page complete in javascript without html or css natives
 ## software
 
 javascript, vscode
+
 
 ## methodology
 
